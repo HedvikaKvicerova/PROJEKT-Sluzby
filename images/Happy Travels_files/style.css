@@ -1,0 +1,86 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+
+
+body {
+     font-family: "Montserrat", sans-serif; 
+     color: #8B8B8B;
+     font-size: 16px;
+     max-width: 460px;
+     background-color: #FAFAFA;
+     text-align: center;
+     margin: 20px;
+}
+h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 13px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 60px;
+    font-weight: 600;
+}
+.happy-traveler {
+    text-align: center;
+    margin-top: 60px;
+}
+.cara {
+    width: 60px;
+    height: 2px;
+    background-color: #407BFF;
+    margin: 0 auto 0;
+}
+.tlacitka {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.tlacitko {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px; 
+    border-radius: 30px;
+    margin: 5px;
+}
+.tlacitko a {
+    text-decoration: none;
+    color:  #FFFFFF;
+    font-size: 14px;
+}
+.dobrodruzstvi {
+    background-color: #407BFF;
+}
+.plaz {
+    background-color: #8B8B8B;
+}
+.ikona {
+    display: flex;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+}
+.ikona p {
+    padding-left: 20px;
+    font-size: 13px;
+}
+.happy-travels  .bezny-text {
+    margin-top: 30px;
+}
+.sluzby-ck .bezny-text,
+.sluzby-delegat .bezny-text {
+    margin-top: 20px;
+}
+.ikony-ck, 
+.ikony-delegat {
+    margin-top: 30px;
+}
